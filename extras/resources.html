@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <!-- <script src="vzrfinit.js"></script> -->
+	      <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=News+Cycle:700|Open+Sans:700" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link href="styles.css" rel="stylesheet"> 
+	<title>HŌM</title>
+</head>
+
+
+
+<body class="container">
+<div class="background-image"></div>
+<div class="div-content">
+  <div class="row">
+      <img src = "images/logo1.png" width = "100%">
+  </div>
+	
+	
+	   <!-- Buttons -->
+	  <div class="row">
+		<div class="col col-sm-6 col-md-6 col-lg-6 text-center">
+			
+			<a href="#button1" class="btn btn-info btn-lg" data-toggle="collapse">Donate Money</a>
+
+			<div id="button1" class="main-container collapse">
+				 <!-- CREDIT CARD FORM STARTS HERE -->
+				 <br>
+            <div class="panel panel-default credit-card-box">
+                <div class="panel-heading display-table" >
+                    <div class="row display-tr" >
+                        <h3 class="panel-title display-td" >Payment Details</h3>
+                        <div class="display-td" >                            
+                          <center>  <img class="img-responsive" src="http://i76.imgup.net/accepted_c22e0.png"></center>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="panel-body">
+                    <form role="form" id="payment-form" method="POST" action="thankyoupage.html">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="form-group">
+                                    <label for="cardNumber">CARD NUMBER</label>
+                                    <div class="input-group">
+                                        <input 
+                                            type="tel"
+                                            class="form-control"
+                                            name="cardNumber"
+                                            placeholder="Valid Card Number"
+                                            autocomplete="cc-number"
+                                            required autofocus 
+                                        />
+                                        <span class="input-group-addon"><i class="fa fa-credit-card"></i></span>
+                                    </div>
+                                </div>                            
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-7 col-md-7">
+                                <div class="form-group">
+                                    <label for="cardExpiry"><span class="hidden-xs">EXPIRATION</span><span class="visible-xs-inline">EXP</span> DATE</label>
+                                    <input 
+                                        type="tel" 
+                                        class="form-control" 
+                                        name="cardExpiry"
+                                        placeholder="MM / YY"
+                                        autocomplete="cc-exp"
+                                        required 
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-xs-5 col-md-5 pull-right">
+                                <div class="form-group">
+                                    <label for="cardCVC">CV CODE</label>
+                                    <input 
+                                        type="tel" 
+                                        class="form-control"
+                                        name="cardCVC"
+                                        placeholder="CVC"
+                                        autocomplete="cc-csc"
+                                        required
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="form-group">
+                                    <label for="couponCode">HOW MUCH WOULD YOU LIKE TO DONATE?</label>
+                                    <input type="text" class="form-control" name="couponCode" placeholder="$0.00"/>
+                                </div>
+                            </div>                        
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <button class="subscribe btn btn-success btn-lg btn-block" type="submit">Donate now</button>
+                            </div>
+                        </div>
+                        <div class="row" style="display:none;">
+                            <div class="col-xs-12">
+                                <p class="payment-errors"></p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>            
+            <!-- CREDIT CARD FORM ENDS HERE -->
+			</div>
+	  
+		</div>
+	</div>
+	
+	<br><br>
+	<div class="row">
+		<div class="col col-sm-6 col-md-6 col-lg-6 text-center">
+			
+			<a href="#button2" class="btn btn-info btn-lg" data-toggle="collapse">Donate Supplies</a>
+
+			<div id="button2" class="main-container collapse">
+			<br>
+			 <div class="panel panel-default">
+                <div class="panel-body">
+                    <form role="form" id="payment-form" method="POST" action="thankyoupage.html">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="form-group text-left">
+                                  
+									<div class="form-group">
+									  <label for="sel1">What would you like to donate?</label>
+									  <select class="form-control" id="sel1">										
+										<option>Food</option>
+										<option>Supplies</option>
+										<option>Clothing</option>
+										<option>Furniture</option>
+									  </select>
+									</div>
+									<br><br><br>
+                     
+                                </div>
+                            </div>                        
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <button class="subscribe btn btn-success btn-lg btn-block" type="submit">Donate now</button>
+                            </div>
+                        </div>
+                        <div class="row" style="display:none;">
+                            <div class="col-xs-12">
+                                <p class="payment-errors"></p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>     
+            </div>      
+			
+		</div>
+	  
+		</div>
+	</div>
+	  
+	</div>
+</body>
+
+
+<script> 
+	$('#myTabs a').click(function (e) {
+	  e.preventDefault()
+	  $(this).tab('show')
+	})
+
+
+
+
+</script>
+
+</html>
