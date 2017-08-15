@@ -134,3 +134,7 @@ button, .btn {
     height: 400px;
     border-radius: 50px;
   }
+
+.width, .width > * {
+      width: 100% !important;
+    }

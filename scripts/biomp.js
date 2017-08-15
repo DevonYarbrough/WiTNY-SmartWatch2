@@ -82,7 +82,7 @@ window.bioMp = function(el, options) {
 		if(view == 'front')
 			var screenCss = 'position: absolute; top: 300px; left: 50px; width: 465px; height: 530px; border: 0;';
 		else if(view == 'left')
-			var screenCss = 'position: absolute; top: 135px; left: -60px; width: 375px; height: 669px; border: 0; -webkit-transform: matrix3d(0.682, -0.160, 0, -0.000380, 0, 0.972, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); -moz-transform: matrix3d(0.682, -0.160, 0, -0.000380, 0, 0.972, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); -ms-transform: matrix3d(0.682, -0.160, 0, -0.000380, 0, 0.972, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); -o-transform: matrix3d(0.682, -0.160, 0, -0.000380, 0, 0.972, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.682, -0.160, 0, -0.000380, 0, 0.972, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);';
+			var screenCss = 'position: absolute; top: 300px; left: 50px; width: 100%; height: 530px; border: 0;';
 		else
 			var screenCss = 'position: absolute; top: 135px; left: -13px; width: 375px; height: 669px; border: 0; -webkit-transform: matrix3d(0.682, 0.160, 0, 0.000380, 0, 0.972, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); -moz-transform: matrix3d(0.682, 0.160, 0, 0.000380, 0, 0.972, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); -ms-transform: matrix3d(0.682, 0.160, 0, 0.000380, 0, 0.972, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); -o-transform: matrix3d(0.682, 0.160, 0, 0.000380, 0, 0.972, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.682, 0.160, 0, 0.000380, 0, 0.972, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);';
 
