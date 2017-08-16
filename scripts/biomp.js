@@ -77,12 +77,12 @@ window.bioMp = function(el, options) {
 		// Add CSS
 		var wrapCss = 'width: ' + width + 'px; height: ' + height + 'px; overflow: hidden; transform-origin: 0 0 0;';
 		var phoneCss = 'position: relative; top: 0px; left: 0px; width: ' + selView.width + 'px; height: ' + selView.height + 'px; background: none; -webkit-transform-origin: 0 0 0; -moz-transform-origin: 0 0 0; -ms-transform-origin: 0 0 0; -o-transform-origin: 0 0 0; transform-origin: 0 0 0; -webkit-transform: scale(' + scale + '); -moz-transform: scale(' + scale + '); -ms-transform: scale(' + scale + '); -o-transform: scale(' + scale + '); transform: scale(' + scale + ');';
-		var phoneImageCss = 'position: absolute; top: 0; left: 0; width: 100%; height: 100%;';
+		var phoneImageCss = 'position: absolute; top: 0; left: 0; width: 100%; height: 100%; max-width: 140rem;';
 
 		if(view == 'front')
 			var screenCss = 'position: absolute; top: 300px; left: 50px; width: 465px; height: 530px; border: 0;';
 		else if(view == 'left')
-			var screenCss = 'position: absolute; top: 60px; left: 290px; width: 50%; height: 400px; border: 0; opacity: .7;';
+			var screenCss = 'position: absolute; top: 65px; left: 365px; width: 40%; height: 410px; border: 0; opacity: .7; -webkit-filter: brightness(1.3) contrast(1.6) hue-rotate(30deg); transform: perspective(150em) rotateX(-25deg);';
 		else
 			var screenCss = 'position: absolute; top: 135px; left: -13px; width: 375px; height: 669px; border: 0; -webkit-transform: matrix3d(0.682, 0.160, 0, 0.000380, 0, 0.972, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); -moz-transform: matrix3d(0.682, 0.160, 0, 0.000380, 0, 0.972, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); -ms-transform: matrix3d(0.682, 0.160, 0, 0.000380, 0, 0.972, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); -o-transform: matrix3d(0.682, 0.160, 0, 0.000380, 0, 0.972, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.682, 0.160, 0, 0.000380, 0, 0.972, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);';
 
