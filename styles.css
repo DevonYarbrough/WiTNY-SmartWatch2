@@ -143,6 +143,10 @@ button, .btn {
     border-radius: 38px;
   }
 
+  .border-larger .bio-mp-screen{
+    border-radius: 79px;
+  }
+
 .width, .width > * {
       width: 100% !important;
       max-width: 130rem;
