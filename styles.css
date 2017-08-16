@@ -142,3 +142,7 @@ button, .btn {
 .width, .width > * {
       width: 100% !important;
     }
+
+iframe body {
+  background-color: transparent;
+}
