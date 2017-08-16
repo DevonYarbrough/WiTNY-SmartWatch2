@@ -1,5 +1,10 @@
 html {
 	width: 100%;
+  font-family: 'Asap', sans-serif;
+}
+
+body {
+  font-family: 'Asap', sans-serif;
 }
 
 .background-image {
@@ -33,9 +38,8 @@ html {
 }
 
 h1 {
-	color: white;
-	font-size: 60px;
-	font-family: Shrikhand;
+	color: black;
+	font-size: 40px;
 }
 
 .container {
@@ -141,8 +145,17 @@ button, .btn {
 
 .width, .width > * {
       width: 100% !important;
+      max-width: 130rem;
     }
 
 iframe body {
   background-color: transparent;
+}
+
+.text-large {
+  font-size: 18px;
+}
+
+ul {
+  padding-left: 10px;
 }
