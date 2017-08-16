@@ -7,6 +7,13 @@
     <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
+
+  <script>
+    function play(){
+       var audio = document.getElementById("audio");
+       audio.play();
+                 }
+  </script>
 	
 	<link href="styles.css" rel="stylesheet"> 
 	<title>WonderWatch</title>
@@ -18,10 +25,10 @@
   <div id="preview">
     <div class="row padding-left padding-top">
       <a href="preview-fitness.html" target="_blank">
-        <div class="app-icon col-xs-6"><img src = "images/heart.png" width = "85%"></div>
+        <div class="app-icon col-xs-6"><img src = "images/heart.png" width = "95%"></div>
       </a>
       <a href="preview-classes.html" target="_blank">
-        <div class="app-icon col-xs-6"><img src = "images/center.png" width = "85%"></div>
+        <div class="app-icon col-xs-6"><img src = "images/center.png" width = "95%"></div>
       </a>
     </div>
     <div class="row padding-left padding-bottom">
@@ -33,7 +40,8 @@
       </a>
     </div>
     <div class="row padding-left padding-bottom">
-        <div class="app-icon col-xs-6"><img src = "images/emergency_5.png" width = "80%"></div>
+        <div class="app-icon col-xs-6"><audio id="audio"><source src="scripts/911.mp3" type="audio/mp3"></audio>
+<img onclick="play()" src = "images/emergency_5.png" width = "80%"></div>
         <div class="app-icon col-xs-6"><img src = "images/skype_6.png" width = "80%"></div>
     </div>
     <div class="row padding-left padding-bottom"></div>
