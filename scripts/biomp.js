@@ -82,7 +82,7 @@ window.bioMp = function(el, options) {
 		if(view == 'front')
 			var screenCss = 'position: absolute; top: 300px; left: 50px; width: 465px; height: 530px; border: 0;';
 		else if(view == 'left')
-			var screenCss = 'position: absolute; top: 60px; left: 290px; width: 50%; height: 400px; border: 0; opacity: .7; -webkit-filter: brightness(1.3) contrast(1.6) hue-rotate(30deg); transform: perspective(150em) rotateX(30deg);';
+			var screenCss = 'position: absolute; top: 65px; left: 365px; width: 40%; height: 410px; border: 0; opacity: .7; -webkit-filter: brightness(1.3) contrast(1.6) hue-rotate(30deg); transform: perspective(150em) rotateX(-25deg);';
 		else
 			var screenCss = 'position: absolute; top: 135px; left: -13px; width: 375px; height: 669px; border: 0; -webkit-transform: matrix3d(0.682, 0.160, 0, 0.000380, 0, 0.972, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); -moz-transform: matrix3d(0.682, 0.160, 0, 0.000380, 0, 0.972, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); -ms-transform: matrix3d(0.682, 0.160, 0, 0.000380, 0, 0.972, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); -o-transform: matrix3d(0.682, 0.160, 0, 0.000380, 0, 0.972, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.682, 0.160, 0, 0.000380, 0, 0.972, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);';
 

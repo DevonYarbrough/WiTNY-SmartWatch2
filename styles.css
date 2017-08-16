@@ -140,7 +140,7 @@ button, .btn {
     left: 26.5px;
     width: 347px;
     height: 400px;
-    border-radius: 50px;
+    border-radius: 38px;
   }
 
 .width, .width > * {
@@ -153,7 +153,7 @@ iframe body {
 }
 
 .text-large {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 ul {
