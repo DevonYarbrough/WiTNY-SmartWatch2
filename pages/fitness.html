@@ -8,7 +8,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">	
 	
-	<link href="styles.css" rel="stylesheet"> 
+	<link href="../styles.css" rel="stylesheet"> 
 	<title>WonderWatch</title>
 	<style type="text/css">
 		.width {
@@ -17,31 +17,46 @@
 	</style>
 </head>
 
-<body class="container">
-<table style="width:100%">
+<body class="container text-large bg-blue">
+<table style="width:100%" class="margin-bottom">
 	<tr>
 		<td>
-			<img src="../images/heart.png">
+			<img src="../images/heart.png" width="60%">
 		</td>
-		<td>
-			<img src="../images/goal.png">
+		<td class="padding-left">
+
+
+<figure class="chart-three animate">
+	<svg role="img" xmlns="http://www.w3.org/2000/svg">
+		<title>[title here]</title>
+		<desc>[long description here]</desc>
+		<circle class="circle-background"/>
+		<circle class="circle-foreground"/>
+	</svg>
+	<h2 class="graph-text">80%</h2>
+</figure>
+
 		</td>
 	</tr>
-	<tr>
-		<td>
+	<tr class="text-xlarge ">
+		<td class="w50">
 			<span style="vertical-align: text-top; ">109 BPM</span>
 		</td>
 		<td>
-			<span style="vertical-align: text-top;">Daily Goal Completed</span>
+			<span style="vertical-align: text-top;">Daily Goal</span>
 		</td>
 	</tr>
 </table>
-<p>
+<p class="left padding-right">
 	DANCE AT 4PM! <br>
 	LOCATION: <br>
 	Senior Center <br>
 	235 Island Ave <br>
 </p>
+<audio  autoplay>
+  <!-- <source src="../scripts/benjamin.mp3" type="audio/mp3"> -->
+  <p>Your browser doesn't support HTML5 audio. Here is a <a href="viper.mp3">link to the audio</a> instead.</p>
+</audio>
 <!--
 <div>
 	<img src="../images/heart.png">
