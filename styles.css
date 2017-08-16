@@ -125,6 +125,10 @@ button, .btn {
 .padding-top {
   padding-top: 20px;
 }
+.padding-logo {
+    padding-top: 250px;
+    padding-left: 90px;
+}
 
 .bio-mp-screen {
     position: absolute;
